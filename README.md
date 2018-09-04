@@ -2,4 +2,4 @@
 
 VIEW IN ACTION
 
-https://kautukkundan.github.io/todo/
+https://kautukkundan.github.io/react-todo/
