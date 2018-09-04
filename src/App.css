@@ -1,0 +1,125 @@
+@font-face {
+	font-family: "Product Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Open Sans"), local("OpenSans"),
+		url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+			format("woff2");
+}
+
+body {
+	font-family: "Product Sans";
+}
+
+.wrapper {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main {
+	height: 90vh;
+	background: #fff;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.title-container {
+	box-shadow: 0px 13px 40px -13px rgba(0, 0, 0, 0.75);
+	height: 90vh;
+	background: #15b7cc;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+}
+
+.title-container__title {
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+}
+
+.title-container__subtitle {
+	font-size: 40vh;
+	line-height: 45vh;
+	padding: 0;
+	margin: 0;
+}
+
+.title-container__subsubtitle {
+	font-size: 10vh;
+	line-height: 10vh;
+	padding: 0;
+	margin: 0;
+}
+
+.form-container {
+  padding: 4%;
+  max-height: 90vh;
+}
+
+.content {
+  max-height: 65vh;
+  overflow: scroll;
+}
+
+.content::-webkit-scrollbar {
+	width: 0px; 
+	background: transparent; 
+}
+
+.content::-webkit-scrollbar-thumb {
+	background: #ff0000;
+}
+
+.heading {
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+
+button {
+	border: 0;
+	padding: 5px 10px;
+	margin: 0 2px;
+	border-radius: 2px;
+	font-size: 15px;
+	cursor: pointer;
+	background-color: #15b7cc;
+	color: #fff;
+}
+
+button:active {
+	outline: none;
+}
+
+input[type="text"] {
+	background-color: transparent;
+	border: 0;
+	border-bottom: solid 1px #757575;
+	width: 80%;
+	padding-bottom: 4px;
+	margin-bottom: 30px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: #1f1f1f;
+}
+
+input[type="text"] {
+	outline: none;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 30px #fff inset;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.delete:hover{
+  text-decoration: line-through;
+}
